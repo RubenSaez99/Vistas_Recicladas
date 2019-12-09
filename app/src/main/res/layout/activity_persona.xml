@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ActivityPersona"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:background="@color/colorPrimary">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/logoActivityPersona"
+        android:src="@drawable/man"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="NOMBRE"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:id="@+id/textoNombrePersona"
+            android:layout_weight="0.5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="APELLIDO"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:id="@+id/textoApellidoPersona"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+</LinearLayout>
